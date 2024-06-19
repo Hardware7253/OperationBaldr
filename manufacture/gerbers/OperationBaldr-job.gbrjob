@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.3"
     },
-    "CreationDate": "2024-06-07T18:19:59+12:00"
+    "CreationDate": "2024-06-19T22:00:40+12:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "OperationBaldr",
       "GUID": "4f706572-6174-4696-9f6e-42616c64722e",
-      "Revision": "rev?"
+      "Revision": "0.1.0"
     },
     "Size": {
       "X": 80.05,
