@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Baldr Schematic")
-		(date "2024-06-18")
-		(rev "0.1.0")
+		(date "2024-07-05")
+		(rev "0.1.1")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC595"
@@ -9871,7 +9871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Network08"
+		(property "Value" "10k"
 			(at 167.64 194.5639 0)
 			(effects
 				(font
@@ -11330,7 +11330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Network08"
+		(property "Value" "10k"
 			(at 134.62 216.1539 0)
 			(effects
 				(font
@@ -11487,7 +11487,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Network08"
+		(property "Value" "10k"
 			(at 154.94 205.9939 0)
 			(effects
 				(font

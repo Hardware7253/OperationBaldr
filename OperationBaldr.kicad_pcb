@@ -2924,7 +2924,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Network08"
+		(property "Value" "10k"
 			(at 11.43 2.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3764,7 +3764,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Network08"
+		(property "Value" "10k"
 			(at 11.43 2.4 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5833,7 +5833,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Network08"
+		(property "Value" "10k"
 			(at 11.43 2.4 0)
 			(layer "F.Fab")
 			(hide yes)
