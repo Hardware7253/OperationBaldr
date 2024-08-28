@@ -1,5 +1,5 @@
-*OperationBaldr-backups/
+*backups/
 fp-info-cache
+target/
 *.kicad_prl
 *.bak
-
