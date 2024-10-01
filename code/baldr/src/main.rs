@@ -148,9 +148,9 @@ fn main() -> ! {
 
     // Buttons for adjusting the time
     let mut buttons = (
-        button::Button::new(gpioa.pa12.into_pull_down_input()), // Hours
-        button::Button::new(gpioa.pa11.into_pull_down_input()), // Minutes
-        button::Button::new(gpioa.pa10.into_pull_down_input()), // Seconds
+        button::Button::new(gpiob.pb4.into_pull_down_input()), // Hours
+        button::Button::new(gpiob.pb3.into_pull_down_input()), // Minutes
+        button::Button::new(gpioa.pa10.into_pull_down_input()), // Seconds 
     );
 
     let mut time_adjust; // True when the users wants to adjust the clock time
@@ -239,6 +239,8 @@ fn main() -> ! {
                     if buttons.0.long_press && buttons.1.long_press && buttons.2.long_press && can_exit_time_adjust {
                         time_adjust = false;
                     }
+
+                    //rprintln!("{}, {}, {}", button_0_pressed, button_1_pressed, button_2_pressed);
 
                     // Increment hours minutes and seconds when their respective buttons are pressed
                     if button_0_pressed && !buttons.1.press_raw && !buttons.2.press_raw {

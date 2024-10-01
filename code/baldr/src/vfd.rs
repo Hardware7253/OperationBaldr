@@ -8,7 +8,7 @@ use crate::hal::{
     prelude::*
 };
 
-use panic_rtt_core::{self, rtt_init_print, rprintln};
+// use panic_rtt_core::{self, rtt_init_print, rprintln};
 
 
 // Struct contains pins and spi bus which are used to interface with the VFD display

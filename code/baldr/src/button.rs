@@ -1,5 +1,6 @@
 // This module defines a button struct and method to make it easier to interface with
 
+// use panic_rtt_core::{self, rtt_init_print, rprintln};
 use crate::hal::gpio::{Pin, Input};
 use crate::{helpers::ms_to_cycles, CLOCK_MHZ};
 
@@ -44,6 +45,7 @@ impl<const P: char, const N: u8> Button<P, N> {
         let mut pressed = false;
         let pin_high = self.pin.is_high();
         self.press_raw = pin_high;
+        
 
         if pin_high {
 
